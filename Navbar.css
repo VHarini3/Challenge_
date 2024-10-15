@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34; /* Dark background */
+    padding: 20px; /* Spacing around the navbar */
+    color: white; /* Text color */
+}
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+}
+
+.nav-links li {
+    display: inline; /* Display links in a line */
+    margin: 0 15px; /* Spacing between links */
+}
+
+.nav-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+

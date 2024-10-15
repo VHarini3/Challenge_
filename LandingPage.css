@@ -1,0 +1,22 @@
+/* LandingPage.css */
+
+.landing {
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    background: linear-gradient(to bottom right, #4e54c8, #8f94fb); /* Gradient background */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+}
+
+.landing h1 {
+    font-size: 3rem; /* Large heading */
+    margin: 0; /* Remove default margin */
+}
+
+.landing p {
+    font-size: 1.5rem; /* Medium paragraph */
+    margin-top: 20px; /* Add space above the paragraph */
+}
